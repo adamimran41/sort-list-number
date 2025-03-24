@@ -11,4 +11,8 @@ def sort_numbers(num_list):
 def display_numbers(sorted_list):
     print("Sorted numbers:", sorted_list)
 
+numbers = get_numbers()
+sorted_numbers = sort_numbers(numbers)
+display_numbers(sorted_numbers)
+
 
